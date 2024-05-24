@@ -1,0 +1,13 @@
+@layer components {
+  .card {
+    @apply w-full sm:w-5/12 md:w-3/12 rounded m-3 p-4 bg-yellow-500 overflow-hidden shadow-lg text-center;
+  }
+
+  .card-title {
+    @apply font-bold text-black text-xl mt-2;
+  }
+
+  .card-text {
+    @apply text-gray-700 text-base mt-2;
+  }
+}
