@@ -1,0 +1,7 @@
+#cooking-contest .card {
+    transition: transform 0.3s;
+}
+
+#cooking-contest .card:hover {
+    transform: translateY(-5px);
+}
